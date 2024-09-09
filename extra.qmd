@@ -1,0 +1,39 @@
+## Additional features
+
+Additional Zotero features Plugins Plugins are programs that work with Zotero to offer additional functionality or help Zotero work with other programs. They are community-built and managed. You can see a list of available plugins on the Plugins Documentation page.
+
+## Installing plugins:
+
+Follow the link from the Plugins documentation page and download (and save) the file for your chosen plugin.
+
+-   In Zotero go to `Tools ➜ Plugins` 
+-   Click the `gear` icon in the top left corner to `Install Add on From File`
+-   Locate Add on file you downloaded 
+-   Enable your plugin via switch
+-   Restart Zotero!
+
+::: callout-tip
+
+I recommend installing `Bibtex` using this [guide](https://giancarlomcorrea.netlify.app/post/zotero-and-quarto/)
+
+:::
+
+
+## Use and customise keyboard shortcuts
+
+Zotero supports many keyboard input options both in the main program and within your word processor.
+
+```{=html}
+<iframe width="600" height="500" src="https://www.zotero.org/support/kb/keyboard_shortcuts" title="Keyboard shortcuts"></iframe>
+```
+
+## Use Zotero to receive RSS feeds
+
+If you have journals you want to follow regularly, jyou can receive information via RSS feed in Zotero. See more on the RSS Feeds page.
+
+## Zotero-based support
+
+-   [Official Docs](https://www.zotero.org/support/) - Quick links to guides for all common uses of Zotero
+
+-   [Knowledge base](https://www.zotero.org/support/kb) - An FAQ of sorts 
+-   [Forums](https://forums.zotero.org/discussions) - If you're encountering a issue, chances are someone else has dealt with the same thing before

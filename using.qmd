@@ -2,12 +2,11 @@
 
 ### Getting Started
 
-
 # Your Library
 
 Once installed, Zotero can be opened by navigating to where you have installed the program and double-clicking on its icon. This will open the Zotero window:
 
-![](images/intro.png)
+![](images/new-item-options.png)
 
 The library has three main panels, which are labeled below:
 
@@ -45,7 +44,7 @@ I.  **Zotero Server Sync:** This button will synchronize the user's desktop libr
 
 ### Preferences and Settings
 
-If you want to adjust any of the program's default settings you need to go through **Edit** ➜ **Preferences {{< fa brands microsoft >}} or Zotero** ➜ **Settings {{< fa brands apple >}}** 
+If you want to adjust any of the program's default settings you need to go through **Edit** ➜ **Preferences** {{< fa brands microsoft >}} **or Zotero** ➜ **Settings** {{< fa brands apple >}}
 
 ![](images/menu.png)
 
@@ -63,10 +62,9 @@ To use tags or keywords within your own library you may also want to check the s
 
 A collection is like a folder. You will want to create a new collection for each project or paper you are working on.
 
-
 ### Add an item
 
-Adding articles (or other items such as book chapters) to Zotero couldn’t be easier. Simply open Zotero, then drag and drop the pdf into “My Library” in the left pane. You can set up different “collections”, which is helpful to organize references by class assignment, for example, but this is not necessary unless you wish to do so. 
+Adding articles (or other items such as book chapters) to Zotero couldn’t be easier. Simply open Zotero, then drag and drop the pdf into “My Library” in the left pane. You can set up different “collections”, which is helpful to organize references by class assignment, for example, but this is not necessary unless you wish to do so.
 
 ### Zotero desktop app add item menu
 
@@ -74,7 +72,7 @@ Select an item type, then enter citation information in the pane on the right. R
 
 ### Zotero “Items”
 
-In Zotero, an item is simply a kind of entry in your library. It may be an article pdf, a book chapter pdf, or even a web address. In your library (the left pane), you will see a list of all of the items you have saved in Zotero. The entry you see is just the info… to read the item, click on the drop-down arrow at the left of the item and it will display the pdf – double click this to open it in the PDF Reader. This is an important distinction – clicking the entry itself will display the related Metadata (see below), or information about the item. Clicking the pdf from the drop down will not show that metadata. 
+In Zotero, an item is simply a kind of entry in your library. It may be an article pdf, a book chapter pdf, or even a web address. In your library (the left pane), you will see a list of all of the items you have saved in Zotero. The entry you see is just the info… to read the item, click on the drop-down arrow at the left of the item and it will display the pdf – double click this to open it in the PDF Reader. This is an important distinction – clicking the entry itself will display the related Metadata (see below), or information about the item. Clicking the pdf from the drop down will not show that metadata.
 
 Metadata is the term for the information about the item you are adding, for example a journal article has information associated with it which we need to create a reference – info such as the title of the paper, the author(s) name(s), the date it was published and the journal name. The good news is that when you add a new item, Zotero automatically searches for the metadata on the web. It is available roughly 90% of the time for articles published in the last 20 years or so. The rest of the time, it will have some, but not all, of the info.
 
@@ -84,13 +82,11 @@ Editing Metadata is necessary when some, or all, of the item info is not automat
 
 To create individual citations, simply right click on the item’s entry in your library, select “Create Bibliography from Selected Item(s)”, choose APA 7th edition, and copy to clipboard. You can now paste it into Word (or anywhere else). https://www.zotero.org/support/creating_bibliographies
 
-Again, using the Word plugin is infinitely more efficient, you can find those instructions here: https://www.zotero.org/support/word_processor_plugin_usage 
+Again, using the Word plugin is infinitely more efficient, you can find those instructions here: https://www.zotero.org/support/word_processor_plugin_usage
 
 ### Creating Items Manually
 
-We can’t always find that PDF of an article we are looking for, sometimes it’s behind a paywall or it simply doesn’t exist on the web. Maybe you want to cite an encyclopedia, but can’t get the PDF of the whole thing, or even the entry… no problem. What we want to do here, is still be able to use Zotero to create the citation for us, so we will manually add an item to our library. In this case, the item won’t actually contain the PDF, but this will allow us to add the metadata by hand so that Zotero can create the citation. Use this to create the item:
-https://www.zotero.org/support/adding_items_to_zotero
-And then, refer to the metadata sections above to add the relevant info.
+We can’t always find that PDF of an article we are looking for, sometimes it’s behind a paywall or it simply doesn’t exist on the web. Maybe you want to cite an encyclopedia, but can’t get the PDF of the whole thing, or even the entry… no problem. What we want to do here, is still be able to use Zotero to create the citation for us, so we will manually add an item to our library. In this case, the item won’t actually contain the PDF, but this will allow us to add the metadata by hand so that Zotero can create the citation. Use this to create the item: https://www.zotero.org/support/adding_items_to_zotero And then, refer to the metadata sections above to add the relevant info.
 
 ### Add a citation style
 
@@ -120,7 +116,7 @@ Word processor plugins Download a plugin Zotero allows you to automatically gene
 
 ### Legal Citations
 
-([Bluebook](https://www.legalbluebook.com/)) or [The Indigo Book](https://law.resource.org/pub/us/code/blue/IndigoBook.html) 
+([Bluebook](https://www.legalbluebook.com/)) or [The Indigo Book](https://law.resource.org/pub/us/code/blue/IndigoBook.html)
 
 ::: callout-note
 ## Juris-M
@@ -128,7 +124,6 @@ Word processor plugins Download a plugin Zotero allows you to automatically gene
 Zotero has only limited support for creating citations for legal cases and documents. But for more lew heavy projects you can use [Juris-M](http://juris-m.github.io/ "http://juris-m.github.io/"), a community-driven unofficial version of Zotero specifically designed for compliance with legal citation requirements. It it built on the same code, so it works the same way, and you can even use the same zotero account.
 
 For a more in depth guide to using Zotero or Jurism for legal scholarship and citation [go here](https://guides.library.cornell.edu/zotero-for-legal-references/home)
-
 :::
 
 Editing citations As noted above, you will need to edit the citations generated by Zotero because they will not always adhere to Bluebook rules. Since the Zotero citations are dynamically linked to your Zotero library, however, your edits will disappear when your citations refresh unless you take the steps below:
@@ -233,7 +228,7 @@ Check the [Rstudio website](https://rmarkdown.rstudio.com/authoring_quick_tour.h
 
 **Note** The latest version of Rstudio (1.4) contains a new editing mode for Rmarkdown, “the visual markdown editor”, that contains support for inserting citations from Zotero. I am not sure yet whether I like this, and noted that on my system, it was still buggy, and the editor, when invoked, makes **CHANGES** to the markdown code. Brrr. Therefore, this blog post does not make use of this new feature.
 
-## Step 6: Connecting Rstudio to Zotero
+## Connecting Rstudio to Zotero
 
 Hold on, almost there. We’re in Rstudio, and writing our paper. Now comes the moment where we want to cite something! Now we need a connection to Zotero. There are two Rstudio Addins that compete for this functionality, `citr` and `rbbt`. Both packages are not on CRAN and therefore need to be installed from Github. I tried them both out, and went for `rbbt` as `citr` does not support CSL-JSON and `rbbt` appears slightly leaner.
 
@@ -267,7 +262,7 @@ bibliography: references.json
 bibliography: "`r rbbt::bbt_write_bib('bibliography.json', overwrite = TRUE)`" 
 ```
 
-## Step 8: Getting the references in the proper format
+## Getting the references in the proper format
 
 At this point, we can `knit` our Rmarkdown document, and it will contain the cited references appended at the end of the HTML/PDF/Word generated output document.
 
