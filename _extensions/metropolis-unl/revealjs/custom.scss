@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+@import "icon.scss";
+@import "callouts.scss";
+@import "notecard.scss";
+@import "icon-boxes.scss";
+@import "buttons.scss";
+
+$marker: "Permanent Marker";
+
+$body-bg: #fefdfa;
+$body-color: #333333;
+$link-color: #d00000;
+$selection-bg: #fefdfa;
+
+$nebraska-red: #d00000;
+$nebraska-yellow: #ffd74f;
+$nebraska-cream: #f5f1e7;
+$nebraska-blue: #005d84;
+$nebraska-gold: #FFCC33;
+
+
+
+/*-- scss:defaults --*/
+
+$font-family-sans-serif:	"Happy Monkey" !default;
+$font-family-monospace:	"Source Code Pro", monospace !default;
+$presentation-h-font12:	"Lalezar", sans-serif !default;
+$presentation-h-font36: "Permanent Marker", sans-serif !default;
+$presentation-font-size-root:	32px !default;
+$presentation-h1-font-size:	2.5em !default;
+$presentation-h2-font-size:	2em !default;
+$presentation-h3-font-size:	1.4em !default;
+$presentation-font-smaller:	0.7 !default;
+$presentation-line-height: 1.3 !default;
+$presentation-title-slide-text-align: left !default;
+$presentation-slide-text-align: left !default;
+$code-block-font-size: 0.60em !default;
+
+$primary-color: #d00000 !default;
+$secondary-color: #ffd74f  !default;
+$body-fg-color: #33474b !default;
+$body-bg: #fefdfa !default;
+$body-color: $body-fg-color !default;
+
+$header-bg-color: $primary-color !default;
+$selection-bg-color: #33474b !default;
+$selection-fcolor: #fff !default;
+$dark-bg-code-color: $example-color !default;
+$link-color: $secondary-color !default;
+
+$alert-color: #ffd74f !default;
+$example-color: #d00000 !default;
+$body-bg: #fefdfa !default;
+$body-color: $body-fg-color !default;
+
+$titleSlide-line: solid !default;
+$h12-font-weight: 500 !default;
+$h36-font-weight: 400 !default;
+$cell-code-font-weight: normal !default;
+$body-font-weight: 300 !default;
+$authors-block-gap: 4em !default;
+
+$header-bg-color: $primary-color !default;
+$selection-bg-color: #404040 !default;
+$selection-fcolor: #fff !default;
+$dark-bg-code-color: $example-color !default;
+$link-color: $secondary-color !default;
+$text-muted: lighten($body-color, 30%);
+$dark-bg-text-color: lighten($body-color, 30%);
+$dark-bg-link-color: $secondary-color !default;
+
+$titleSlide-line: solid !default;
+$h12-font-weight: 500 !default;
+$h36-font-weight: 400 !default;
+$cell-code-font-weight: normal !default;
+$body-font-weight: 300 !default;
+$authors-block-gap: 4em !default;
+
+/*-- scss:rules --*/
+
+// logo size
+
+.reveal .slide-logo {
+  height: 20px !important;
+  width: 20px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.reveal {
+    font-weight: $body-font-weight !important;
+
+
+  h1, h2 {
+    font-family: $presentation-h-font12;
+    font-weight: $h12-font-weight;
+    text-transform: uppercase;
+  }
+
+  h3, h4, h5, h6 {
+    font-family: $presentation-h-font36;
+    font-weight: $h36-font-weight;
+  }
+
+  .tape-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    //border: 4px solid $nebraska-red;
+    z-index: 0;
+      padding: 20px; // Added padding for text inside
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); // 3D-like shadow
+
+
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: 65px; // Adjust this value to control the start position
+      right: 65px;
+      height: 25px;
+      background-color: $nebraska-yellow;
+    }
+  }
+
+  code {
+    font-weight: $cell-code-font-weight;
+  }
+
+  strong {
+    font-weight: $h12-font-weight;
+  }
+
+  blockquote {
+    margin-left: 1em;
+    border-color: $primary;
+
+    p {
+      padding: 5px;
+      line-height: 1.2;
+      color: $text-muted;
+    }
+  }
+
+  div.sourceCode {
+    margin-top: 15px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.1);
+  }
+
+  pre.sourceCode code {
+    padding-top: 8px;
+  }
+
+  .alert { color: $alert-color; }
+  .example { color: $example-color; }
+
+  ::selection {
+    color: $selection-fcolor;
+    background: $selection-bg-color;
+    text-shadow: none;
+  }
+
+  .callout {
+    box-shadow: 0px 0px 6px rgba(0,0,0,.1);
+    border-radius: 8px;
+
+    .callout-body {
+      font-weight: $body-font-weight !important;
+      border-radius: 8px;
+
+      code {
+        font-size: 1.2em;
+      }
+
+      .callout-title {
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+  }
+
+  section#references {
+    font-size: 0.8em;
+  }
+
+  div.csl-entry {
+    margin-bottom: 1em;
+    font-weight: $cell-code-font-weight;
+
+    span {
+      color: gray;
+    }
+  }
+
+  div.csl-entry::before {
+    content: $book-icon;
+  }
+
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    font-style: italic;
+    color: $primary-color;
+  }
+
+  .quarto-title-authors {
+    padding-top: 20px;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    border-top: 2px $titleSlide-line $secondary-color;
+
+    .quarto-title-author {
+      padding-left: 0em !important;
+      padding-right: $authors-block-gap !important;
+      width: fit-content;
+    }
+  }
+
+  .author,
+  .quarto-title-author-name {
+    color: $body-color;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  #title-slide .subtitle,
+  div.reveal div.slides section.quarto-title-block .subtitle {
+    margin-bottom: 1.5rem;
+    color: $body-color;
+  }
+
+  .slide-background.title-slide {
+    background-color: $primary-color;
+  }
+
+  div.header-logo {
+    grid-area: logo;
+  }
+
+  div.header-title {
+    grid-area: ht;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  div.reveal-header {
+    display: grid;
+    grid-template-columns: 3fr 0.35fr;
+    grid-template-areas: "ht logo";
+    column-gap: 10px;
+    align-items: center;
+    top: -5px;
+    margin: 3.2px 0px 2px 0px;
+    width: 100%;
+    position: fixed;
+    background: $header-bg-color;
+    z-index: 5;
+
+    .hedaer-title h2 {
+      color: $primary-color !important;
+    }
+  }
+
+
+  div.slides section:not(.title-slide):not(#title-slide):not(.stack) {
+    padding-top: 2em;
+    margin-top: 1.5em;
+    padding-bottom: 3em;
+  }
+
+  div.slides section.smaller:not(.title-slide):not(#title-slide):not(.stack) {
+    padding-top: 4em;
+    margin-top: 1.5em;
+    padding-bottom: 2em;
+  }
+
+  .header-logo img,
+  .header-logo svg{
+    margin: 0px 0px 0px 0px;
+    padding-left: 3vw;
+    padding-right: 18px;
+    padding-top: 12px;
+    height: 100%;
+    width: auto;
+    max-width: max(50px, 12vw);
+    max-height: max(50px, 12vh);
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    padding: 12px;
+  }
+
+  .cell-output-display {
+    max-height: 450px;
+    overflow-y: auto;
+  }
+
+  .footer,
+  .slide-number {
+    font-family: $font-family-monospace;
+    color: #404040;
+
+  }
+
+  .slide aside {
+    bottom: 250px ;
+    color: #404040;
+  }
+
+  section[data-background-image] {
+    color: white;
+
+    h1 {
+      color: #404040;
+    }
+
+    h2, h3, h4, h5, h5 {
+      color: white;
+    }
+
+    code {
+      color: $example-color;
+      filter: brightness(2);
+    }
+  }
+
+  .progress {
+	  background-color: transparent;
+	  color: $secondary-color;
+  }
+
+  // tables
+  .slides table {
+
+    margin-bottom: 0.80em;
+    border-top: 4px solid lighten(#404040, 5%);
+    border-bottom: 4px solid lighten(#404040, 5%);
+
+    th, td {
+      border: none;
+      padding: 0.20em;
+      font-size: 0.90em;
+    }
+
+    thead th {
+      font-weight: normal;
+      background-color: $primary-color;
+      color: #fff;
+    }
+
+    thead th,
+    tr:last-child td {
+      border-bottom: 3px solid #404040;
+    }
+
+  }
+
+  .slide {
+    figure>figcaption {
+      font-size: 0.80em;
+    }
+  }
+}
+
+figure.quarto-float-tbl figcaption.quarto-float-caption-top {
+  margin-bottom: 1rem;
+}
+
+
+@mixin hvcenter(){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.reveal {
+  ul {
+    list-style-type: none; // No bullets at any level
+    padding-left: 0; // Remove padding on the left if needed
+
+    li {
+      position: relative;
+      padding-left: 1.5em;
+      margin-bottom: 0.5em; // Add some space between list items
+    }
+
+    > li::before { // First level list items (arrow)
+      content: '';
+      position: absolute;
+      left: 0;
+      //top: 0.5em; // Adjust vertically as needed
+      display: inline-block;
+      width: .8em;
+      height: .8em;
+      background-image: $arrow;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    ul { // Nested lists
+      list-style-type: none; // Ensure nested lists also have no bullets
+
+      > li::before { // Second level list items (brain)
+        content: $brain-icon;
+        position: absolute;
+        left: 0;
+        top: 0.1em; // Adjust this as needed for alignment
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        font-size: 1em; // Adjust the font size for the icon
+        background: none; // No background
+      }
+    }
+  }
+}
+
+
+//add shadow box to image but not logo
+.shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+// body-text card
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  border: none;
+  flex: 1 1 100%;
+  margin: 31px 0;
+  padding: 1.2rem;
+  font-family: $font-family-sans-serif;
+  margin-left: 30px; /* Adjust starting position from the left */
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  background: lighten(#f8f8f8, 3%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    .marker {
+    font-family: $marker !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: 0.6em;
+    margin-top: 0.2em;
+    color: black;
+    font-size: 2.3rem;
+    letter-spacing: 1.1px;
+    text-decoration: underline;
+    text-decoration-color: $primary-color;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 4rem; // More top margin on larger screens
+    padding-top: 2.5rem; // More top padding on larger screens
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(33.33% - (#{31px * 2} + #{20px * 2}));
+    margin: 0 31px;
+  }
+}
+
+
+// sizeing options
+.huge { font-size: 200% }
+.extra-large { font-size: 150% }
+.large { font-size: 130% }
+.medium { font-size: 115% }
+.small { font-size: 70% }
+.tiny { font-size: 50% }
+
+
+.vspace {
+     margin-bottom: 1cm;
+  }
+
+.vspace2 {
+     margin-bottom: 2.5cm;
+     padding: 1%;
+  }
+
+.hspace {
+     margin-left: 5cm;
+     padding: 1%;
+  }

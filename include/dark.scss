@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+$code-color: #ffd74f;
+
+/*-- scss:rules --*/
+.dark-mode,
+.dark-light .cell-output-display figure,
+.dark-light .cell-output-display img
+{ display: block; }
+
+.light-mode,
+.dark-light .cell-output-display + .cell-output-display figure ,
+.dark-light .cell-output-display + .cell-output-display img
+{ display: none; }
+
+.terminal {
+  border-color: #005d84;
+}
+
+
+// iframes for slides embedded in talks pages
+iframe.slide-deck {
+  border: 3px solid $gray-700;
+  width: 100%;
+}
+
+.ar4x3 {
+  aspect-ratio: 4 / 3;
+}
+
+.ar3x2 {
+  aspect-ratio: 3 / 2;
+}
+
+

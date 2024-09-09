@@ -1,0 +1,9 @@
+# Getting Started
+
+
+
+You must download and install two components:
+
+The standalone Zotero program (includes the word processor plug in). Zotero is available for Windows, Linux or macOS
+The Zotero connector for your browser. Supported browsers are Chrome, Firefox and Safari which Zotero will detect.
+For help installing Zotero after download, see the Zotero installation page.

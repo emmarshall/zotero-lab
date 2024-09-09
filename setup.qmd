@@ -1,0 +1,58 @@
+# Getting Started
+
+
+::: callout-tip
+Zotero has extensive online documentation that can help you with [specific questions or issues](https://www.zotero.org/support/)
+:::
+
+### Step 1: Install Zotero
+
+Go to the [Zotero website](https://www.zotero.org/) to download, install and configure Zotero. (This includes creating a Zotero account for online storage of your references) to do is download Zotero
+
+<a href="https://www.zotero.org/download/">
+    <button class="button-61">Download</button>
+</a>
+
+
+::: aside
+The installer is ~70MB and the program takes up very little space on your disk)
+https://www.zotero.org/support/installation
+:::
+
+
+
+::: callout-tip
+If for some reason you cannot or refuse to download the Zotero program, [ZoteroBib](https://zbib.org/) offers a free in-browser solution to creating a bibliography.
+:::
+
+There are three things you need to do before you can use Zotero effectively:
+
+1.  [Download](https://www.zotero.org/support/installation "Link to download") & Install the desktop app to your computer or device
+
+2.  Create a Zotero account (required to sync across devices & use shared-library features)
+
+3.  Set-up & configure RStudio or [Word integration](https://www.zotero.org/support/word_processor_plugin_usage "Link to install")
+
+4.  (Optional) Install (preferred) Internet browser extension
+
+
+Go to the Zotero website to download, install and configure Zotero. (This includes creating a Zotero account for online storage of your references)
+
+First, download the [Zotero](https://www.zotero.org/) desktop app to your computer or device.
+
+Second, install the browser extension.
+
+[Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide)
+
+Now, you can start adding sources to Zotero Collections. See the Add a Collection page in this guide for more instructions on how to name a new collection for your research project.
+
+Or, visit the Zotero Quick Start Guide to learn in more detail about how to use tags and collections in Zotero to organize your references.
+
+::: callout-note
+Note: on the download page is a Zotero connector for Firefox – If you use Firefox as a web browser (highly recommended anyway), this adds a button to your browser that detects content (e.g., pdfs of journal articles) when you’re on a page with downloadable content. This makes it a one-click add to download articles directly to Zotero and retrieve the related info.
+:::
+
+
+If you would like to use Zotero directly in Microsoft Word, you can find the plugin here:
+https://www.zotero.org/support/word_processor_plugin_usage
+This functionality is more advanced and will take you a few more minutes to learn to use, but it makes life so much easier! You can still generate references in Zotero without it, but you will need to do them one at a time, and you still need to properly order them on the references page (alphabetically) as well as add the proper hanging indents and line spacing. With the plugin, you add in-text citations as you type your paper, then creating the reference page is as simple as clicking one button!

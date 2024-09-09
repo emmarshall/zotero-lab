@@ -1,0 +1,32 @@
+/* Code Highlighting Styles: Unique color for each element */
+
+div:not(.color-theme-2) pre.sourceCode.r { background-color: #fefdfa; color: #010B13; } /* Light cream background with dark steel text */
+code > span.kw { color: #d00000; font-weight: bold; } /* Keyword - Red */
+code > span.dt { color: #404040; } /* DataType - Dark Grey */
+code > span.dv { color: #005d84; } /* DecVal - Blue */
+code > span.bn { color: #001226; } /* BaseN - Navy */
+code > span.fl { color: #249ab5; } /* Float - Light Blue */
+code > span.ch { color: #bccb2a; } /* Char - Green */
+code > span.st { color: #f5f1e7; background-color: #010B13; } /* String - Cream on Dark Steel background for visibility */
+code > span.co { color: #c7c8ca; font-style: italic; } /* Comment - Gray */
+code > span.ot { color: #ffe5e5; background-color: #010B13; } /* Other - Light Red on Dark Steel background */
+code > span.al { color: #ffd74f; font-weight: bold; } /* Alert - Yellow */
+code > span.fu { color: #f58a1f; } /* Function - Orange */
+code > span.er { color: #a5228d; font-weight: bold; } /* Error - Purple */
+code > span.wa { color: #cccccc; font-weight: bold; } /* Warning - Light Gray */
+code > span.cn { color: #ffe5e5; background-color: #010B13; } /* Constant - Light Red on Dark Steel background */
+code > span.sc { color: #fefdfa; background-color: #010B13; } /* SpecialChar - Light Cream on Dark Steel background */
+code > span.vs { color: #ffd74f; } /* VerbatimString - Yellow */
+code > span.ss { color: #bccb2a; } /* SpecialString - Green */
+code > span.im { color: #249ab5; } /* Import - Light Blue */
+code > span.va { color: #c7c8ca; } /* Variable - Gray */
+code > span.cf { color: #d00000; font-weight: bold; } /* ControlFlow - Red */
+code > span.op { color: #404040; } /* Operator - Dark Grey */
+code > span.bu { color: #005d84; } /* BuiltIn - Blue */
+code > span.ex { color: #001226; } /* Extension - Navy */
+code > span.pp { color: #f58a1f; } /* Preprocessor - Orange */
+code > span.at { color: #a5228d; } /* Attribute - Purple */
+code > span.do { color: #cccccc; font-style: italic; } /* Documentation - Light Gray */
+code > span.an { color: #ffd74f; font-weight: bold; } /* Annotation - Yellow */
+code > span.cv { color: #ffe5e5; background-color: #010B13; } /* CommentVar - Light Red on Dark Steel background */
+code > span.in { color: #f5f1e7; background-color: #010B13; } /* Information - Cream on Dark Steel background */

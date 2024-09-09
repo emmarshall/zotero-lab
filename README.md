@@ -1,1 +1,1 @@
-# zotero-lab
+# zotero-basics

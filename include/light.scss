@@ -1,0 +1,91 @@
+/*-- scss:defaults --*/
+
+$red: #d00000 !default;
+$unl-red-light: #ffe5e5 !default;
+$dark-grey: #404040 !default;
+$gray: #c7c8ca !default;
+$unl-cream: #f5f1e7 !default;
+$light-cream: #fefdfa !default;
+$yellow: #ffd74f !default;
+$light-blue: #249ab5 !default;
+$blue: #005d84 !default;
+$navy: #001226 !default;
+$orange: #f58a1f !default;
+$green: #bccb2a !default;
+$purple: #a5228d !default;
+$light-gray: #cccccc !default;
+$dark-steel: #010B13 !default;
+
+
+$primary:       $red !default;
+$secondary:     $yellow !default;
+$success:       $blue !default;
+$info:          $light-blue !default;
+$warning:       $red !default;
+$danger:        $orange !default;
+$light:         $light-cream !default;
+$dark:          $dark-steel !default;
+
+// footer
+$footer-bg: $primary;
+$footer-fg: $secondary;
+
+// callouts
+
+$callout-color-tip: $blue;
+$callout-color-note: $dark;
+
+/*-- fonts --*/
+@import 'fonts.css';
+
+$font-family-sans-serif: 'Atkinson Hyperlegible', serif;
+$font-family-monospace: 'Atkinson Hyperlegible', serif;
+
+/*-- scss:rules --*/
+.dark-mode,
+.dark-light .cell-output-display figure,
+.dark-light .cell-output-display img
+{ display: none; }
+
+.light-mode,
+.dark-light .cell-output-display + .cell-output-display figure ,
+.dark-light .cell-output-display + .cell-output-display img
+{ display: block; }
+
+.terminal {
+  border-color: #eee;
+}
+
+
+
+
+// links
+a {
+  color: $blue;
+  text-decoration-thickness: 1px;
+  //text-underline-offset: .1rem;
+  //text-underline-position: under;
+}
+
+
+a:hover {
+  color: $primary;
+  text-decoration-color: $primary;
+}
+
+
+
+// iframes for slides embedded in talks pages
+iframe.slide-deck {
+  border: 3px solid $gray-700;
+  width: 100%;
+}
+
+.ar4x3 {
+  aspect-ratio: 4 / 3;
+}
+
+.ar3x2 {
+  aspect-ratio: 3 / 2;
+}
+

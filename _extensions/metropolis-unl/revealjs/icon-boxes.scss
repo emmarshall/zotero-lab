@@ -1,0 +1,57 @@
+
+/// icon boxes 
+$primary-color: #d00000;
+
+// Variables
+$icolor: #fff;      // icon color
+$scolor: darken($primary-color, 12%);
+$bcolor: $primary-color;   // background color
+$bradius: 15px;     // bg border radius
+$length: 150px;     // box length
+
+// Mixins
+@mixin long-shadow($scolor, $length) {
+  $list: ();
+  @for $i from 1 through $length {
+    $list: append($list, $scolor $i+px $i+px, comma);
+  }
+  text-shadow: $list;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+// Universal icon and image box styling
+.icon-box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: $length;
+  height: $length;
+  background-color: $bcolor;
+  @include border-radius($bradius);
+  
+  img, i {
+    display: block;
+    width: 100%;  // Ensure the content covers the entire box
+    height: 100%; // Adjust based on content
+    object-fit: cover; // Ensures images fit well in the box, does not affect icons
+    @include long-shadow($scolor, $length);
+    
+    // Icon-specific adjustments
+    color: $icolor; // Applies only to icons (i elements)
+    font-size: $length/2; // Adjust based on icon size
+    line-height: $length; // Center icons vertically
+  }
+}
+
+// Container styling
+#container {
+  text-align: center;
+  
+  .icon-box {
+    display: inline-block;
+    margin: 0.5em;
+  }
+}

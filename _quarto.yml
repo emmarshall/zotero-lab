@@ -1,0 +1,84 @@
+lang: en
+project:
+  type: book
+  output-dir: docs
+  resources:
+  - slides/*.qmd
+execute:
+  freeze: auto
+book:
+  title: "PSYC350: APA References & Zotero Guide"
+  subtitle: ''
+  author: Emma Marshall
+  doi: ''
+  license: CC-BY
+  description: All about the Zotero.
+  cover-image: images/zotero.png
+  image: images/zotero.png
+  favicon: images/zotero.png
+  cookie-consent: false
+  google-analytics: ''
+  page-navigation: true
+  search: true
+  downloads:
+  - pdf
+  - epub
+  sidebar:
+    title: ''
+    logo: ''
+    search: true
+    contents: ''
+    style: floating
+    background: light
+    foreground: dark
+    border: true
+    alignment: left
+    collapse-level: 3
+    pinned: true
+    header: ''
+    footer: ''
+  margin-header: ''
+  page-footer: CC-BY (2024) UNL
+  chapters:
+  - index.qmd
+  - instructions.qmd
+  - intro.qmd
+  - setup.qmd
+  - using.qmd
+  - apa7.qmd
+  - lab3.qmd
+  appendices:
+  - references.qmd
+bibliography: include/references.bib
+csl: include/apa.csl
+format:
+  html:
+    link-external-icon: false
+    link-external-newwindow: false
+    theme:
+      light:
+      - flatly
+      - include/light.scss
+      dark:
+      - darkly
+      - include/dark.scss
+    css:
+    - https://use.fontawesome.com/releases/v5.13.0/css/all.css
+    - include/booktem.css
+    - include/webex.css
+    - include/glossary.css
+    - include/style.css
+    df-print: kable
+    code-link: false
+    code-fold: false
+    code-line-numbers: true
+    code-overflow: wrap
+    code-copy: hover
+    ##highlight-style: a11y
+    mainfont: 'Atkinson Hyperlegible'
+    monofont: 'Atkinson Hyperlegible'
+    include-after-body:
+    - include/webex.js
+    - include/script.js
+    filters:
+      - include/callouts.lua

@@ -1,0 +1,45 @@
+title: Nebraska
+author: Emma Marshall
+version: 0.0.1
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    pdf+pretty:
+     # mainfont: Roboto
+      #sansfont: Source Sans 3
+      include-in-header: 
+       - "pdf-pretty/pdf-pretty.tex"
+      include-before-body:
+       - "pdf-pretty/pagestyle.tex"
+      toc: false
+      code-block-bg: light
+      linkcolor: highlight
+      urlcolor: highlight
+      format-resources:
+       - logos/logo-y.png
+    pdf+letter: 
+      template: pdf-letter/template.tex
+      format-resources:
+       - logos/NU_name-logo.png
+    html:
+      filters: 
+        - html/assets/callouts.lua
+      theme: [lumen, html/assets/em-light.scss]
+    revealjs:
+      date-format: long
+      overview: true
+      progress: true
+      touch: true
+      chalkboard: false
+      leader-line: true
+      attribution: true
+      embedio: true
+      execute:
+        echo: true
+      title-slide-attributes:
+        data-background-image: 'https://emmarshall.github.io/runza/img/icons/corn-logo-c.svg'
+        data-background-size: contain
+        data-background-opacity: .5
+      theme: [default, revealjs/unl.scss]
+      logo: 'https://emmarshall.github.io/runza/img/icons/corn-logo-y.svg'
+      preload-iframes: true

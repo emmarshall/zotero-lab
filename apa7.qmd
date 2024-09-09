@@ -1,0 +1,94 @@
++---------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------+
+| Source                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Citation                                                                                                                                                                                                                                | Reference list citation |
++=========================================================+======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+=========================================================================================================================================================================================================================================+=========================+
+| Journal article                                         | A reference for a journal article includes the surnames and initials of the authors, the year the article was published (in parentheses), the title of the article (only the first word of the title and the first word following a colon are capitalized), the title of the journal (this should be italicized, and the first letters are all capitalized), the volume number (italics), issue number (in parentheses), and the page numbers. If there is a digital object identifier (DOI), you will need to include that link as well.            | @hicks_etal24                                                                                                                                                                                                                           | @hicks_etal24           |
++---------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------+
+| Book                                                    | A reference for a book includes the surnames and initials of the authors, the year the book was published (in parentheses), the title of the book (italicized & only the first word of the title and the first word following a colon are capitalized), edition, name of the publisher, and DOI if available.                                                                                                                                                                                                                                        | (Balderdash, 1969)                                                                                                                                                                                                                      |                         |
+|                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                         |                         |
+|                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Balderdash, H. Q. (1969). *Writing for meaning* (2nd ed.). Perfection Press.                                                                                                                                                            |                         |
++---------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------+
+| A Chapter in an Edited Book, Encyclopedia, or Anthology | A reference for each of these includes the surnames and initials of the authors, the year the work was published (in parentheses), the title of the chapter (only the first word of the title and the first word following a colon are capitalized), the initials then surnames of the editors/anthologists followed by (Ed.) or (Eds.), title of the book (italicized & only the first word of the title and the first word following a colon are capitalized), pages of the chapter (in parentheses), name of the publisher, and DOI if available. | (Bakke, Glover, & Krogdahl, 2011)                                                                                                                                                                                                       |                         |
+|                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                         |                         |
+|                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Bakke, A. M., Glover, C., & Krogdahl, A. (2011). Feeding, digestion, and absorption of nutrients. In M. Grosell, A. P. Farrell, & C. J. Brauner (Eds.), *Fish physiology: The multifunctional gut of fish* (pp. 57-75). Academic Press. |                         |
++---------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------+
+
+
+
+::: questions
+Today, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.
+:::
+
+::: objectives
+1.  Learn where to find information and what is required for the course
+2.  Identify where to go when questions arise
+:::
+
+::: vspace2
+:::
+
+## Prepare for Today
+
+::: readings
+-   [ ] Read the [Syllabus](https://emmarshall.github.io/PSYC181-UNL/SUM24/syllabus.qmd)
+
+:::
+
+::: vspace2
+:::
+
+::: instructor
+
+
+Either click on the slide area below or click [here](slides/slides.qmd) to view it in fullscreen.
+
+Use your keypad to navigate the slides.
+
+
+## Navigation With keyboards
+
+To move between slides in the presentation, please use: 
+
+- next slide: spacebar, `j`, or right arrow
+- previous slide: `k` or left arrow
+
+## RevealJS Tools
+
+Some other common tasks with RevealJS:
+
+- menu bar for options: `m`
+- overview of slides: `o`
+- zoom element: `alt` (windows) or `option` (mac)
+- [print slides](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf)
+:::
+
+## Lecture Slides
+
+::: {.container style="position: relative;overflow: hidden;width: 100%;min-height:600px;"}
+<iframe src="slides.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;">
+
+</iframe>
+:::
+
+::: vspace2
+:::
+
+::: takeaways
+The answer is typically in the syllabus or on the site. 
+
+But if it isn't, do not hesitate to reach out or set up a one-on-one meeting. 
+
+:::
+
+<style>
+.slide-deck {
+    border: 3px solid #dee2e6;
+    width: 100%;
+    height: 475px;
+}
+</style>
+
+<div>
+```{=html}
+<iframe class="slide-deck" src="https://emmarshall.github.io/slides/lab-lecture/lab-3/#/title-slide"></iframe>
+```
+</div>

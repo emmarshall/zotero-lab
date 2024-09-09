@@ -1,0 +1,21 @@
+title: Metropolis-UNL
+author: emarshall
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    revealjs:
+      date-format: long
+      theme: [simple, revealjs/custom.scss]
+      css: whiteboard.css
+      title-slide-attributes:
+        data-background-image: 'https://emmarshall.github.io/runza/img/icons/corn-logo-c.svg'
+        data-background-size: contain
+        data-background-opacity: .5
+      execute:
+        echo: true
+      filters: 
+        - revealjs/metropolis-header.lua
+        - revealjs/custom-block.lua
+
+

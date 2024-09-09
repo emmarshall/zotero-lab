@@ -1,0 +1,43 @@
+# Overview
+
+::: callout-important
+## {{< fa bell >}} NEW! 
+
+**Zotero 7 released August 2024!** 
+
+Read about what changed [here](https://www.zotero.org/blog/zotero-7/).
+
+If you’re already running Zotero, you can upgrade from within Zotero by going to `Help → “Check for Updates…”`
+
+:::
+
+## What is Zotero?
+
+Zotero is a free and open-source [{{< fa brands github >}}](https://github.com/zotero/zotero) citation manager designed to collect, store, share, organize and cite references. 
+
+Zotero is not the first program of its kind; nor will it likely be the last. But as of the writing of this guide it is the most attractive option for academics and students to manage references during writing and research projects.
+
+Zotero works with various operating systems {{< fa brands microsoft >}} or {{< fa brands apple >}} or {{< fa brands linux >}} and allows you to download references into a personalized library and then create properly formatted in-text citations and bibliographies.
+
+::: aside
+There is even an ios app! 
+:::
+
+Zotero also enables you to store all your PDFs, notes, and citation meta-data (i.e., information you include in the formatted citation) in the same centralized location (or synced across all your devices using a free online account). 
+
+## Why use Zotero? 
+
+Any time we use information from an article, report, or other source, it is important to: 
+-   :tada: **give** credit to others work
+-   :bulb: **add credibility** to your work
+-   :construction: **provide** context for your work
+-   :microphone: **direct** audience to other work
+
+Yet keeping track of references and citations by hands is one of the most tedious parts of the research and writing process. Academics, including those in the field of psychology, tend to use very specific and finicky style formatting guidelines when Psychology, as well as a number of other fields, has adopted a very specific format for references (also see our APA references handouts on Canvas). Unfortunately, there are hundreds of different kinds of sources, and each has a specific way to cite that source. It can be a nightmare to even find the right formatting for the source you have. 
+
+Fortunately, there are software packages that can assist us with this task! Zotero is one such program (collectively referred to as reference managers). Zotero is widely used, free (up to a few thousand stored items), and easy to use. Even better, there is a plugin for Microsoft Word that makes creating citations and entire reference pages as easy as clicking a button! We will use Zotero in stats lab to help learn APA format for citations; however, learning to use it now, especially in conjunction with Word, will make writing for other classes easy as well!
+Zotero provides a one stop shop for storing, managing, and exporting references.
+
+
+
+

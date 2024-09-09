@@ -1,0 +1,91 @@
+
+// Function to create a long shadow effect
+@function longshadow($color_a, $color_b, $stepnum, $opacity: 1) {
+  $gradient_steps: ();
+
+  @for $i from 1 through $stepnum {
+    $weight: ( ($i - 1) / $stepnum ) * 100;
+    $colour_mix: mix($color_b, rgba($color_a, $opacity), $weight);
+    $gradient_steps: append($gradient_steps, #{$i}px #{$i}px 0 $colour_mix, comma);
+  }
+
+  @return $gradient_steps;
+}
+
+// Variables for styling
+$bg: #d00000;
+$primary-color: #d00000;
+$example-color: #005d84;
+$alert-color: #ffd74f;
+
+// Styles for callouts
+.reveal {
+  .callout {
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .05);
+  }
+  
+  .callout.callout-style-default {
+    border-left: 1px solid;
+  }
+  
+  .callout-note {
+    border-left-color: #404040 !important;
+  }
+  
+  .callout-note.callout-style-default .callout-title {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: #fff;
+    font-size: 2em !important;
+    line-height: 1.1;
+    text-shadow: longshadow(darken($primary-color, 30%), $primary-color, 50, 0.5);
+  }
+  
+  // Example callout
+  .callout-example .callout-title {
+    background-color: $example-color !important;
+    text-shadow: longshadow(darken($example-color, 30%), $example-color, 50, 0.5);
+  }
+  
+  // Your existing styles
+  .text-longshadow {
+    color: #fff;
+    font-size: 2em !important;
+    line-height: 1.1;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: longshadow(darken($example-color, 30%), $example-color, 50, 0.5);
+  }
+
+  .bg-example {
+    background-color: $example-color;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  // Alert callout
+  .callout-alert .callout-title {
+    background-color: $alert-color;
+    text-shadow: longshadow(darken($alert-color, 30%), $alert-color, 50, 0.5);
+  }
+  
+  // Your existing styles
+  .text-longshadow {
+    color: #fff;
+    font-size: 2em !important;
+    line-height: 1.1;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: longshadow(darken($alert-color, 30%), $alert-color, 50, 0.5);
+  }
+
+  .bg-alert {
+    background-color: $alert-color;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+
